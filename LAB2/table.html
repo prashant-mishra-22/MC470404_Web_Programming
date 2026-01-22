@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my first table</title>
+    <style>
+        footer{
+            font-size: 30px;
+        }
+        table,th,td
+            {
+                border: 2px solid black;
+                border-collapse: collapse;
+                padding:10px;
+                margin: 10px;
+                font-size: 20px;
+                text-align: center;
+            }
+            b{
+                font-size: 30px;
+            }
+    </style>
+</head>
+<body>
+    <header>
+    </header>
+    <main>
+        <div>
+            <table>
+                <caption>
+                    <b>Monthly Budget</b>
+                </caption>
+                <thead>
+                    <tr>
+                        <th colspan="2">Category</th>
+                        <th>Amount</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Housing</td>
+                        <td>Rent</td>
+                        <td>Rs 15000</td>
+                    </tr>
+                    <tr>
+                        <td>Groceries</td>
+                        <td>Food/Drink</td>
+                        <td>Rs 15000</td>
+                    </tr>
+                    <tr>
+                        <td>Utilities</td>
+                        <td>Electricity/Water</td>
+                        <td>Rs 10000</td>
+                    </tr>
+                    <tr>
+                        <td>Insurance</td>
+                        <td>Healgth/Life</td>
+                        <td>Rs 5000</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="3">
+                            Total : Rs 45000
+                        </td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+    </main>
+    <footer>
+    </footer>
+</body>
+</html>
